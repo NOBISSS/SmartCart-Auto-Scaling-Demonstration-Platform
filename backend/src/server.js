@@ -23,6 +23,17 @@ app.get("/health", (req, res) => {
 // Connect to MongoDB and start server
 const PORT = process.env.PORT || 5000;
 
+app.get("/", (req, res) => {
+  res.json({
+    message: "Welcome to SmartCart API",
+    status: "Running",
+    endpoints: {
+      health: "/health",
+      products: "/api/products",
+    },
+  });
+});
+
 async function startServer() {
   try {
     await mongoose.connect(process.env.MONGODB_URI);
