@@ -1,0 +1,51 @@
+
+export const fallbackProducts = [
+  {
+    _id: "demo-1",
+    name: "Wireless Headphones",
+    description: "Immersive sound for everyday listening.",
+    price: 2499,
+    category: "Electronics",
+    image: "",
+  },
+  {
+    _id: "demo-2",
+    name: "Smart Watch",
+    description: "Stay connected and track your daily activity.",
+    price: 3499,
+    category: "Electronics",
+    image: "",
+  },
+  {
+    _id: "demo-3",
+    name: "Running Shoes",
+    description: "Comfort and support for every step.",
+    price: 1999,
+    category: "Fashion",
+    image: "",
+  },
+  {
+    _id: "demo-4",
+    name: "Travel Backpack",
+    description: "A practical companion for everyday travel.",
+    price: 1299,
+    category: "Accessories",
+    image: "",
+  },
+  {
+    _id: "demo-5",
+    name: "Desk Lamp",
+    description: "Simple lighting for your workspace.",
+    price: 899,
+    category: "Home",
+    image: "",
+  },
+  {
+    _id: "demo-6",
+    name: "Bluetooth Speaker",
+    description: "Enjoy your favourite music anywhere.",
+    price: 1799,
+    category: "Electronics",
+    image: "",
+  },
+];
